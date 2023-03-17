@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="lesson15.css" />
+    <title>Сайт группы</title>
+    <script async src = "js/popup.js";></script>
+    </script>
+  </head>
+
+  <body class="page">
+    <header class="header">
+      <img class="site-logo" src="img/logo.svg" />
+      <nav>
+        <ul class="site-meny">
+          <li><a href="index.html" class="meny-link active-link" >Главная</a></li>
+          <li>
+            <a class="meny-link" href="students.html">Cтуденты</a>
+          </li>
+          <li><a href="okurse.html" class="meny-link">О курсе</a></li>
+          <li><a href="contacty.html" class="meny-link">Контакты</a></li>
+        </ul>
+        
+      </nav>
+      <a class="login-button" href="login.html">Войти</a>
+      <div class="login-popup">
+        <img class="popup-close" alt="изображение" srs="img/clo.svg">
+        <h2 class="login-heading">Войти на сайт</h2>
+        <form class="login-form">
+          <input class="login-input" name="login" type="text"placeholder="Логин"required>
+          <input class="login-password" name="password" type="text" placeholder="Пароль"required>
+          <button class="popup-button" type="submit">Войти</button>
+        </form>
+      </div>
+    </header>
+      <main class="main">
+        <div style="text-align:center;">
+          <h1 class="main-heading">Всем привет! Меня зовут Айгимик.</h1>
+          <h2 class="main-heading">Я родилась и живу в <em>Дагестане</em>, город Избербаш.<br>
+            <strong class="amn">Замужем, трое детей.</strong>
+            Работаю администратором в отеле "ОКЕАН".
+          </h2>
+         <img class="about-photo" src="img/ocean.jpg">
+         <form action="" method="post">
+          
+          <h1>форма о себе</h1>
+          <label for="username" name="username">Ваше имя:</label>
+          <input class="input-size" id="username" type="text"required placeholder="Представьтесь">
+          <label for="work" name="work" >Род занятий:</label>
+          <input class="input-parameters" id="work" type="text" placeholder="Ваша деятельность">
+          <label for="email" name="email">Email</label>
+          <input id="email" type="email" placeholder="ajgimika97@gmail.com">
+          <label for="">Подписаться на новости</label>
+          <input type="checkbox">
+          <button type="submit">Отправить</button>
+          
+      </form>
+         <h3 class="main-heading" >Будем рады гостям!</h2>
+        </div>
+      </main>
+      
+    <footer class="footer">
+      <p class="copyright">
+        2022 &copy; <a href="" class="innop-link">учебный центр</a>
+      </p>
+    </footer>
+  </body>
+</html>
